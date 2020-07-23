@@ -30,9 +30,12 @@ You can make a real-time AP location map showing the current stations for each A
 # Note 
 To be clear, here's an example of the content of my tag: 
 
-AP39  //Here AP39 is one of my AP names. 
+AP39  //Here AP39 is one of my AP names. I added it by hand.
 
-Current stations: {10.0.200.253:hh3cDot11ApStationCurAssocSum[ap39].last(0)} //And the second line shows dynamic statistics of the current stations of ap39, in which                                                                                          10.0.200.253 is the IP address of my AC,last(0) means to get the latest data. You can just replace                                                                                the IP of AC and the name 'ap39' in [] with your own values.
+Current stations: {10.0.200.253:hh3cDot11ApStationCurAssocSum[ap39].last(0)} //The second line shows dynamic statistics of the current stations of ap39, in which                                                                                                10.0.200.253 is the IP address of my AC; 
+                                                                               The second part you can copy from item key names;
+                                                                               last(0) means to get the latest data. 
+                                                                               You can just replace the IP of AC and the name 'ap39' in [] with your own values.                                                                         
 
 # Changelog
 
