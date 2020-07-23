@@ -23,16 +23,16 @@ You can make a real-time AP location map showing the current stations for each A
 1. Create a topology map.
 2. Import your own location map picture as background.
 3. Add an element as each of your AP:
-          - type: host
-          - tag:{<the IP address of AC>:hh3cDot11ApStationCurAssocSum[<the name of ap, you can get it from the names of items>].last(0)}  
-          - host: <choose your AC>
+   - type: host
+   - tag:{<the IP address of AC>:hh3cDot11ApStationCurAssocSum[<the name of ap, you can get it from the names of items>].last(0)}  
+   - host: <choose your AC>
        
 # Note 
 To be clear, here's an example of the content of my tag: 
 
 AP39  //Here AP39 is one of my AP names. 
 
-Current stations: {10.0.200.253:hh3cDot11ApStationCurAssocSum[ap39].last(0)} //And the second line shows dynamic statistics of the current stations of ap39, in which 10.0.200.253 is the IP address of my AC,last(0) means to get the latest data. You can just replace the IP of AC and the name 'ap39' in [] with your own values.
+Current stations: {10.0.200.253:hh3cDot11ApStationCurAssocSum[ap39].last(0)} //And the second line shows dynamic statistics of the current stations of ap39, in which                                                                                          //10.0.200.253 is the IP address of my AC,last(0) means to get the latest data. You can just replace                                                                              //the IP of AC and the name 'ap39' in [] with your own values.
 
 # Changelog
 
