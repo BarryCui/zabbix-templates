@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.4</version>
-    <date>2020-07-23T02:46:47Z</date>
+    <date>2020-07-23T05:25:12Z</date>
     <groups>
         <group>
             <name>H3C</name>
@@ -131,12 +131,7 @@
                 </discovery_rule>
             </discovery_rules>
             <httptests/>
-            <macros>
-                <macro>
-                    <macro>{$SNMP_COMMUNITY}</macro>
-                    <value>icicle</value>
-                </macro>
-            </macros>
+            <macros/>
             <templates>
                 <template>
                     <name>Template Module ICMP Ping</name>
