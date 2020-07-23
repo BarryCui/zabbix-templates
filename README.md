@@ -1,4 +1,4 @@
 # Zabbix-Templates
-All templates has been tested on Zabbix 3.X
+All templates have been tested on Zabbix 3.X
 
 
